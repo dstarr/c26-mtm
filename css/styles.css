@@ -512,12 +512,6 @@ main {
   font-size: 1rem;
 }
 
-.site-footer__meta {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  max-width: 36rem;
-}
-
 /* Resource list */
 .resource-list {
   list-style: none;
