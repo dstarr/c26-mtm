@@ -113,12 +113,13 @@ a:hover {
   outline-offset: 2px;
 }
 
-.brand__mark {
-  width: 2.25rem;
+.brand__logo {
+  display: block;
   height: 2.25rem;
-  border-radius: 10px;
-  background: var(--color-primary);
-  box-shadow: 0 2px 8px var(--color-primary-muted);
+  width: auto;
+  max-width: min(12rem, 55vw);
+  object-fit: contain;
+  object-position: left center;
 }
 
 .nav-toggle {
