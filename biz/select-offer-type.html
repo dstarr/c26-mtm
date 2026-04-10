@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choose your offer type — Cumulus26</title>
+  <meta name="description" content="Pick the right Azure marketplace offer type for your solution: SaaS, VM, containers, or managed applications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Cumulus26
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">☰</label>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="select-offer-type.html" aria-current="page">Offer types</a></li>
+          <li><a href="../learning-paths/index.html">Learning paths</a></li>
+          <li><a href="../partner-center/index.html">Partner Center</a></li>
+          <li><a href="../saas/index.html">SaaS</a></li>
+          <li><a href="../vm/index.html">VM offers</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero--compact">
+      <div class="wrap">
+        <p class="hero__eyebrow">Business · architecture</p>
+        <h1>Choose your Azure marketplace offer type</h1>
+        <p class="lead">Primary considerations include deployment architecture and billing model. Use the summary below to narrow the path, then open the matching learning hub.</p>
+      </div>
+    </section>
+
+    <div class="wrap prose">
+      <p>In the original library, a visual decision diagram accompanies this page. For this static edition, the diagram is omitted; follow the offer-type summaries and deep links instead.</p>
+
+      <div class="figure-placeholder" role="note">
+        <strong>Decision diagram</strong><br>
+        Refer to Microsoft’s publishing guidance or the source repository assets for the full “select offer type” illustration.
+      </div>
+
+      <h2>SaaS offers</h2>
+      <p>Software delivered as a service and transacted in the marketplace.</p>
+      <ul>
+        <li>Runs in the publisher’s tenant</li>
+        <li>Supports metered billing</li>
+        <li>Requires integration with marketplace SaaS APIs</li>
+      </ul>
+      <p><a href="../learning-paths/saas-offers.html">Learning path: SaaS offers</a> · <a href="../saas/index.html">SaaS hub</a></p>
+
+      <h2>Virtual machine offers</h2>
+      <p>Publish your software on a VM image for customer subscriptions.</p>
+      <ul>
+        <li>Runs in the customer’s tenant and subscription</li>
+        <li>Usage-based pricing for the product</li>
+        <li>No metered billing on the VM offer type itself (see product docs for nuances)</li>
+      </ul>
+      <p><a href="../learning-paths/virtual-machine-offers.html">Learning path: VM offers</a> · <a href="../vm/index.html">VM hub</a></p>
+
+      <h2>Azure managed applications</h2>
+      <p>ARM-based deployments with publisher-managed lifecycle in the customer tenant.</p>
+      <ul>
+        <li>Runs in the customer’s tenant</li>
+        <li>Publisher can manage deployed resources</li>
+        <li>Deploys via ARM template; supports metered billing</li>
+      </ul>
+      <p><a href="../learning-paths/ama-offers.html">Learning path: managed apps</a> · <a href="../ama/index.html">AMA hub</a></p>
+
+      <h2>Container offers for Kubernetes apps</h2>
+      <p>Bundle container images and deploy to customer AKS.</p>
+      <ul>
+        <li>Runs in the customer’s tenant and subscription</li>
+        <li>Usage-based pricing</li>
+        <li>Supports metered billing</li>
+      </ul>
+      <p><a href="../learning-paths/container-offers.html">Learning path: containers</a> · <a href="../container/index.html">Container hub</a></p>
+
+      <p class="callout"><strong>Next step:</strong> When you know your offer type, open the <a href="../learning-paths/index.html">learning paths</a> index for curated Microsoft Learn and Partner Center training links.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">Cumulus26</div>
+      <p class="site-footer__meta">Adapted from <a href="https://github.com/microsoft/Mastering-the-Marketplace" rel="noopener noreferrer">Mastering the Marketplace</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
